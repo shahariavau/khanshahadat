@@ -6,14 +6,14 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "JOY-BOT",
+  "BOTNAME": "𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓-𝐁𝐎𝐓",
   "PREFIX": "/",
   "OPERATOR": [
     "100065050393649",
     "100056382366330"
   ],
   "ADMINBOT": [
-    "100065050393649",
+    "100006922083531",
     "100056382366330"
   ],
   "OWNER": ["100000959749712"], 
