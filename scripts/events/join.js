@@ -48,7 +48,7 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.imgur.com/DGYiyUo.jpeg';
+    let gifUrl = 'https://www.facebook.com/khansshahadat146?mibextid=ZbWKwL';
 let gifPath = __dirname + '/Nayan/join/join.jpeg';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি জয় তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐕𝐚𝐮 তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,15 +66,15 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-ADMIN :MD JUBAED AHMED JOY 
+ADMIN :𝐒𝐇𝐀𝐇𝐀𝐑𝐈𝐀 𝐇𝐀𝐒𝐀𝐍 𝐈𝐁𝐍𝐄 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/mdjubaet.ahmed.9
+https://www.facebook.com/khansshahadat146?mibextid=ZbWKwL
 
-🔵WHATSAPP NUMBER: wa.me/+8801709045888
+🔵WHATSAPP NUMBER: 𝐖𝐩.𝐌𝐞/-+9660578259145
 
-🟢SUPPORT EMAIL: www.mdjubaetahmed124@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: 𝐒𝐇𝐀𝐇𝐀𝐇𝐀𝐃𝐀𝐓𝐕𝐚𝐮1996@𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
